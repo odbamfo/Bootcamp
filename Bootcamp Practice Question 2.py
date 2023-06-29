@@ -108,7 +108,6 @@ def calculateGrades():
     print(f"Honors Category: {honors_category}")
 
 
-# Main program execution
 calculateGrades()
 
 
@@ -124,6 +123,8 @@ lastnumber= int(input('Type a number:'))
 def sumCalc(lastnumber):
     Sum = (lastnumber/2)*(1+lastnumber)
     print(f'The sum is {Sum}')
+
+sumCalc(lastnumber)
 
 
 '''Implement the len function. Name it customLen. The len function takes a string and returns the 
